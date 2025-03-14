@@ -1,19 +1,15 @@
 # *
 User-agent: *
 Allow: /
-
-# Host
-Host: https://aircooffertelimburg.nl
-
-# Sitemaps
-Sitemap: https://aircooffertelimburg.nl/sitemap.xml
-
-# Crawl-delay
-Crawl-delay: 10
-
-# Disallow
 Disallow: /api/
 Disallow: /admin/
 Disallow: /_next/
 Disallow: /private/
-Disallow: /*?*
+
+# Host
+Host: https://aircoinstallatie-maastricht.nl
+
+# Sitemaps
+Sitemap: https://aircoinstallatie-maastricht.nl/sitemap.xml
+Sitemap: https://aircoinstallatie-maastricht.nl/sitemap-locations.xml
+Sitemap: https://aircoinstallatie-maastricht.nl/sitemap-services.xml

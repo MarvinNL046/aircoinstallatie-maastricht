@@ -3,9 +3,15 @@ import path from 'path'
 import { getCities } from './cities'
 import diensten from '@/data/diensten.json'
 
+// Function to get the site URL
+function getSiteUrl() {
+  return process.env.NEXT_PUBLIC_SITE_URL || 'https://aircoinstallatie-maastricht.nl';
+}
+
 async function generateServicesSitemap() {
+  const siteUrl = getSiteUrl();
   const services = diensten.map(dienst => ({
-    loc: `https://aircooffertelimburg.nl/diensten/${dienst.slug}`,
+    loc: `${siteUrl}/diensten/${dienst.slug}`,
     lastmod: new Date().toISOString().split('T')[0],
     changefreq: 'weekly',
     priority: 0.9
@@ -15,7 +21,7 @@ async function generateServicesSitemap() {
   const cities = await getCities()
   const serviceCityUrls = diensten.flatMap(dienst =>
     cities.map(city => ({
-      loc: `https://aircooffertelimburg.nl/diensten/${dienst.slug}/${city.slug}`,
+      loc: `${siteUrl}/diensten/${dienst.slug}/${city.slug}`,
       lastmod: new Date().toISOString().split('T')[0],
       changefreq: 'weekly',
       priority: city.population > 50000 ? 0.8 : 0.7
@@ -41,9 +47,10 @@ ${allServiceUrls.map(url => `  <url>
 }
 
 async function generateLocationsSitemap() {
+  const siteUrl = getSiteUrl();
   const cities = await getCities()
   const locations = cities.map(city => ({
-    loc: `https://aircooffertelimburg.nl/steden/${city.slug}`,
+    loc: `${siteUrl}/steden/${city.slug}`,
     lastmod: new Date().toISOString().split('T')[0],
     changefreq: 'weekly',
     priority: city.population > 50000 ? 0.9 : 
@@ -68,6 +75,7 @@ ${locations.map(location => `  <url>
 }
 
 async function generateMainSitemap() {
+  const siteUrl = getSiteUrl();
   const staticPages = [
     { url: '', priority: 1.0 },
     { url: 'offerte', priority: 0.9 },
@@ -80,7 +88,7 @@ async function generateMainSitemap() {
     { url: 'merken', priority: 0.6 },
     { url: 'steden', priority: 0.8 },
   ].map(page => ({
-    loc: `https://aircooffertelimburg.nl/${page.url}`,
+    loc: `${siteUrl}/${page.url}`,
     lastmod: new Date().toISOString().split('T')[0],
     changefreq: page.url === '' ? 'daily' : 'weekly',
     priority: page.priority
@@ -103,20 +111,21 @@ ${staticPages.map(page => `  <url>
 }
 
 async function generateSitemapIndex() {
+  const siteUrl = getSiteUrl();
   const today = new Date().toISOString().split('T')[0]
   
   const xml = `<?xml version="1.0" encoding="UTF-8"?>
 <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <sitemap>
-    <loc>https://aircooffertelimburg.nl/sitemap-main.xml</loc>
+    <loc>${siteUrl}/sitemap-main.xml</loc>
     <lastmod>${today}</lastmod>
   </sitemap>
   <sitemap>
-    <loc>https://aircooffertelimburg.nl/sitemap-services.xml</loc>
+    <loc>${siteUrl}/sitemap-services.xml</loc>
     <lastmod>${today}</lastmod>
   </sitemap>
   <sitemap>
-    <loc>https://aircooffertelimburg.nl/sitemap-locations.xml</loc>
+    <loc>${siteUrl}/sitemap-locations.xml</loc>
     <lastmod>${today}</lastmod>
   </sitemap>
 </sitemapindex>`

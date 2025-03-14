@@ -16,7 +16,8 @@ const nextConfig = {
     optimizePackageImports: ['lucide-react']
   },
   env: {
-    NEXT_PUBLIC_SITE_URL: 'https://aircooffertelimburg.nl'
+    // Use the environment variable or fallback to the new domain
+    NEXT_PUBLIC_SITE_URL: process.env.NEXT_PUBLIC_SITE_URL || 'https://aircoinstallatie-maastricht.nl'
   }
 }
 

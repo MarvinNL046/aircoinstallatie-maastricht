@@ -1,6 +1,7 @@
+
 /** @type {import('next-sitemap').IConfig} */
 module.exports = {
-  siteUrl: 'https://aircoinstallatie-maastricht.nl',
+  siteUrl: "https://aircoinstallatie-maastricht.nl",
   generateRobotsTxt: true,
   robotsTxtOptions: {
     policies: [
@@ -16,8 +17,8 @@ module.exports = {
       },
     ],
     additionalSitemaps: [
-      'https://aircoinstallatie-maastricht.nl/sitemap-locations.xml',
-      'https://aircoinstallatie-maastricht.nl/sitemap-services.xml',
+      "https://aircoinstallatie-maastricht.nl/sitemap-locations.xml",
+      "https://aircoinstallatie-maastricht.nl/sitemap-services.xml",
     ],
   },
   exclude: ['/404', '/500', '/offline'],
