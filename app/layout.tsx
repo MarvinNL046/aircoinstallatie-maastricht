@@ -18,6 +18,16 @@ export const metadata = {
     template: '%s | StayCool Airco Maastricht'
   },
   description: 'Dé airco specialist in Maastricht! ✓ Professionele installatie door StayCool Airco ✓ Erkend installateur ✓ Alle topmerken ✓ Binnen 24 uur reactie ✓ Beste prijs-kwaliteit ✓ 5 jaar garantie. Bel nu: 046 202 1430',
+  icons: {
+    icon: [
+      { url: '/favicon.ico' },
+      { url: '/icon-192.png', sizes: '192x192', type: 'image/png' },
+      { url: '/icon-512.png', sizes: '512x512', type: 'image/png' },
+    ],
+    apple: [
+      { url: '/icon-192.png' },
+    ],
+  },
   keywords: [
     // Primaire zoektermen
     'airco installatie maastricht',
