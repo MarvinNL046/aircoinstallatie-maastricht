@@ -120,7 +120,7 @@ export const metadata = {
     },
   },
   verification: {
-    google: 'verification_token',
+    google: 'F7ziqeuiZtQK3wDaKBZ65SgfDN61xAKq09v9PUpqQSY',
     yandex: 'verification_token',
     yahoo: 'verification_token',
   }
