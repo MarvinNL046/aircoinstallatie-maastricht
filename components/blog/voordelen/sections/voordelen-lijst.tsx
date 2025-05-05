@@ -39,12 +39,13 @@ export function VoordelenLijst() {
 
   return (
     <div className="space-y-8 mb-12">
+      <h2 className="text-2xl font-bold mb-6">7 Belangrijke Voordelen van Airconditioning</h2>
       {voordelen.map((voordeel) => (
         <div key={voordeel.title} className="bg-gray-50 p-6 rounded-lg">
           <div className="flex items-start gap-4">
             <span className="text-3xl">{voordeel.icon}</span>
             <div>
-              <h2 className="text-xl font-semibold mb-2">{voordeel.title}</h2>
+              <h3 className="text-xl font-semibold mb-2">{voordeel.title}</h3>
               <p className="text-muted-foreground">{voordeel.description}</p>
             </div>
           </div>

@@ -9,8 +9,8 @@ import { generateOrganizationSchema } from "@/lib/schema"
 import Script from "next/script"
 
 export const metadata: Metadata = {
-  title: 'StayCool Airco Maastricht | #1 in Airconditioning ✓',
-  description: 'Dé airco specialist van Maastricht! Professionele airco installatie voor woning en bedrijf door StayCool Airco. ✓ Gratis offerte ✓ Erkend installateur ✓ Alle topmerken ✓ 5 jaar garantie. Bel: 046 202 1430',
+  title: 'Airco Installateur Maastricht | Airco Plaatsen & Onderhoud | StayCool',
+  description: 'Professionele airco installatie in Maastricht. Erkende airco specialist voor plaatsing & onderhoud. Topmerken met 5 jaar garantie. Bel nu: 046 202 1430',
   alternates: {
     canonical: 'https://aircoinstallatie-maastricht.nl'
   }

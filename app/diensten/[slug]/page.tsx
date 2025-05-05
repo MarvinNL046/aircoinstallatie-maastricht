@@ -22,14 +22,34 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     }
   }
 
+  // Optimize title based on service type
+  let title = "";
+  let description = "";
+
+  switch(params.slug) {
+    case "installatie":
+      title = `Airco Installateur Maastricht | Professionele Airco Installatie | StayCool`;
+      description = `Vakkundige airco installatie in Maastricht door erkende installateurs. Alle topmerken, 5 jaar garantie. Vraag vandaag nog een offerte aan.`;
+      break;
+    case "onderhoud":
+      title = `Airco Onderhoud Maastricht | Professioneel & Betrouwbaar | StayCool`;
+      description = `Professioneel airco onderhoud in Maastricht. Verleng de levensduur van uw systeem en voorkom storingen. Erkende airco specialist.`;
+      break;
+    default:
+      title = `${dienst.title} Maastricht | Erkende Airco Specialist | StayCool`;
+      description = dienst.description.length > 155 ? 
+        dienst.description.substring(0, 155) + "..." : 
+        dienst.description;
+  }
+
   return {
-    title: `${dienst.title} | Airco Offerte Limburg`,
-    description: dienst.description,
+    title: title,
+    description: description,
     openGraph: {
-      title: `${dienst.title} | Airco Offerte Limburg`,
-      description: dienst.description,
-      url: `https://aircooffertelimburg.nl/diensten/${params.slug}`,
-      siteName: "Airco Offerte Limburg",
+      title: title,
+      description: description,
+      url: `https://aircoinstallatie-maastricht.nl/diensten/${params.slug}`,
+      siteName: "StayCool Airco Maastricht",
       locale: "nl_NL",
       type: "website",
     },

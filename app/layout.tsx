@@ -14,10 +14,10 @@ const inter = Inter({
 export const metadata = {
   metadataBase: new URL('https://aircoinstallatie-maastricht.nl'),
   title: {
-    default: 'Airco Installatie Maastricht | StayCool Airco | Gratis Offerte Binnen 24 Uur ✓',
-    template: '%s | StayCool Airco Maastricht'
+    default: 'Airco Installateur Maastricht | Erkend & Gecertificeerd | StayCool',
+    template: '%s | StayCool Airco'
   },
-  description: 'Dé airco specialist in Maastricht! ✓ Professionele installatie door StayCool Airco ✓ Erkend installateur ✓ Alle topmerken ✓ Binnen 24 uur reactie ✓ Beste prijs-kwaliteit ✓ 5 jaar garantie. Bel nu: 046 202 1430',
+  description: 'Professionele airco installatie in Maastricht ✓ Erkend installateur ✓ Alle topmerken ✓ 5 jaar garantie. Bel nu: 046 202 1430',
   icons: {
     icon: [
       { url: '/favicon.ico' },
@@ -96,8 +96,8 @@ export const metadata = {
     locale: 'nl_NL',
     url: '/',
     siteName: 'StayCool Airco Maastricht',
-    title: 'Airco Installatie Maastricht | StayCool Airco | Gratis Offerte Binnen 24 Uur ✓',
-    description: 'Dé airco specialist in Maastricht! ✓ Professionele installatie door StayCool Airco ✓ Erkend installateur ✓ Alle topmerken ✓ Binnen 24 uur reactie ✓ Beste prijs-kwaliteit',
+    title: 'Airco Installateur Maastricht | Erkend & Gecertificeerd | StayCool',
+    description: 'Professionele airco installatie in Maastricht door erkende installateurs. Topmerken, 5 jaar garantie en de beste service.',
     images: [
       {
         url: '/opengraph-image',
@@ -109,8 +109,8 @@ export const metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Airco Installatie Maastricht | StayCool Airco | Gratis Offerte Binnen 24 Uur ✓',
-    description: 'Dé airco specialist in Maastricht! ✓ Professionele installatie door StayCool Airco ✓ Erkend installateur ✓ Alle topmerken ✓ Binnen 24 uur reactie',
+    title: 'Airco Installateur Maastricht | Erkend & Gecertificeerd | StayCool',
+    description: 'Professionele airco installatie in Maastricht door erkende monteurs. Bel nu: 046 202 1430',
     images: ['/opengraph-image'],
     creator: '@staycoolairco',
     site: '@staycoolairco'
