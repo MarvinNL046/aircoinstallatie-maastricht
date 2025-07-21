@@ -5,13 +5,17 @@ import { Input } from '@/components/ui/input';
 import { Textarea } from '@/components/ui/textarea';
 import { Button } from '@/components/ui/button';
 import { Send } from 'lucide-react';
-import { sendEmail } from '@/lib/emailjs';
+import { sendEmail } from '@/utils/email';
+import { useRouter } from 'next/navigation';
+import { toast } from 'sonner';
 
 export default function ContactForm() {
+  const router = useRouter();
   const [formData, setFormData] = useState({
     name: '',
     email: '',
     phone: '',
+    city: '',
     message: '',
   });
 
@@ -33,10 +37,19 @@ export default function ContactForm() {
     try {
       await sendEmail(formData);
       setStatus('success');
-      setFormData({ name: '', email: '', phone: '', message: '' });
+      toast.success('Bericht succesvol verzonden!');
+      
+      // Reset form
+      setFormData({ name: '', email: '', phone: '', city: '', message: '' });
+      
+      // Optional: Redirect to thank you page after a delay
+      setTimeout(() => {
+        router.push('/bedankt');
+      }, 1500);
     } catch (error) {
       console.error('Error:', error);
       setStatus('error');
+      toast.error('Er is iets misgegaan. Probeer het later opnieuw.');
     }
   };
 
@@ -72,6 +85,15 @@ export default function ContactForm() {
             value={formData.phone}
             onChange={handleChange}
             required
+            className="w-full"
+          />
+        </div>
+        <div>
+          <Input
+            name="city"
+            placeholder="Uw plaats"
+            value={formData.city}
+            onChange={handleChange}
             className="w-full"
           />
         </div>
