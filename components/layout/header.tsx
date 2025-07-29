@@ -12,6 +12,7 @@ import { AirVent, Menu, Phone } from "lucide-react"
 const navigation = [
   { name: "Home", href: "/" },
   { name: "Diensten", href: "/diensten" },
+  { name: "Producten", href: "/producten" },
   { name: "Steden", href: "/steden" },
   { name: "Merken", href: "/merken" },
   { name: "Kennisbank", href: "/kennisbank" },

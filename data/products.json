@@ -1,0 +1,1212 @@
+{
+  "products": {
+    "daikin": [
+      {
+        "id": "daikin-comfora",
+        "name": "Daikin Comfora",
+        "model": "FTXTP25L",
+        "type": "wandmodel",
+        "brand": "daikin",
+        "images": [
+          "/images/daikin-comfora-left.webp",
+          "/images/daikin-comfora-right.webp",
+          "/images/daikin comfora-onectaApp.webp"
+        ],
+        "features": [
+          "Onecta app connectiviteit",
+          "3D-luchtstroomregeling", 
+          "R-32 koudemiddel",
+          "Coanda-effect voor optimale luchtverspreiding",
+          "Flash Streamer luchtzuivering"
+        ],
+        "specifications": {
+          "koelvermogen": "2.5 kW",
+          "verwarmingsvermogen": "3.2 kW", 
+          "energielabel": "A+++",
+          "geluidsniveau": "19 dB(A)",
+          "afmetingen": "798 x 295 x 215 mm",
+          "koudemiddel": "R-32"
+        },
+        "benefits": [
+          "Zeer energiezuinig (A+++ label)",
+          "Fluisterstille werking (19 dB)",
+          "Smart home integratie via Onecta app",
+          "Geavanceerde luchtzuivering"
+        ],
+        "description": "De Daikin Comfora combineert stijlvol design met geavanceerde technologie. Perfect voor moderne woningen die comfort en energiebesparing zoeken."
+      },
+      {
+        "id": "daikin-emura",
+        "name": "Daikin Emura",
+        "model": "FTXJ-MS",
+        "type": "wandmodel",
+        "brand": "daikin",
+        "images": [
+          "/images/daikin-emura-wit.webp",
+          "/images/daikin-emura-zilver.webp",
+          "/images/daikin-emura-zwart.webp"
+        ],
+        "features": [
+          "Premium design in 3 kleuren",
+          "Intelligent Eye sensor",
+          "Flash Streamer technology",
+          "Coanda-effect",
+          "WiFi-sturing via Onecta app"
+        ],
+        "specifications": {
+          "koelvermogen": "2.0 - 7.1 kW",
+          "verwarmingsvermogen": "2.5 - 8.0 kW",
+          "energielabel": "A+++",
+          "geluidsniveau": "19 dB(A)",
+          "afmetingen": "802 x 295 x 215 mm",
+          "koudemiddel": "R-32"
+        },
+        "benefits": [
+          "Luxe design past in elk interieur",
+          "Intelligente bewegingsdetectie",
+          "Uitstekende energieprestaties",
+          "Beschikbaar in wit, zilver en zwart"
+        ],
+        "description": "De Daikin Emura is de perfecte combinatie van premium design en topprestaties. Verkrijgbaar in drie stijlvolle kleuren."
+      },
+      {
+        "id": "daikin-perfera",
+        "name": "Daikin Perfera",
+        "model": "FTXM-R",
+        "type": "wandmodel",
+        "brand": "daikin",
+        "images": [
+          "/images/daikin-perfera-wit.webp"
+        ],
+        "features": [
+          "2-zone Intelligent Eye",
+          "Flash Streamer luchtzuivering",
+          "Online Controller",
+          "Coanda-effect",
+          "Eco-modus voor energiebesparing"
+        ],
+        "specifications": {
+          "koelvermogen": "2.0 - 7.1 kW",
+          "verwarmingsvermogen": "2.5 - 8.0 kW",
+          "energielabel": "A+++",
+          "geluidsniveau": "19 dB(A)",
+          "afmetingen": "798 x 295 x 215 mm",
+          "koudemiddel": "R-32"
+        },
+        "benefits": [
+          "Intelligente aanwezigheidsdetectie",
+          "Geavanceerde luchtzuivering",
+          "Energiezuinige werking",
+          "Online besturing mogelijk"
+        ],
+        "description": "De Daikin Perfera biedt intelligente klimaatbeheersing met geavanceerde sensortechnologie voor optimaal comfort."
+      },
+      {
+        "id": "daikin-perfera-vloer",
+        "name": "Daikin Perfera Vloermodel",
+        "model": "FVXM-F",
+        "type": "vloermodel",
+        "brand": "daikin",
+        "images": [
+          "/images/Perfera-vloermodel-left.webp",
+          "/images/Perfera vloermodel-right.webp"
+        ],
+        "features": [
+          "Compacte vloerunit",
+          "3D-luchtstroomregeling",
+          "Flash Streamer technology",
+          "Intelligent Eye sensor",
+          "Online Controller"
+        ],
+        "specifications": {
+          "koelvermogen": "2.5 - 5.0 kW",
+          "verwarmingsvermogen": "3.2 - 6.0 kW",
+          "energielabel": "A++",
+          "geluidsniveau": "22 dB(A)",
+          "afmetingen": "600 x 295 x 645 mm",
+          "koudemiddel": "R-32"
+        },
+        "benefits": [
+          "Ideaal voor ruimtes zonder wandmontage",
+          "Compacte afmetingen",
+          "Intelligente klimaatbeheersing",
+          "Eenvoudige installatie"
+        ],
+        "description": "Het Daikin Perfera vloermodel biedt alle voordelen van de Perfera serie in een compact vloermodel design."
+      },
+      {
+        "id": "daikin-sensira",
+        "name": "Daikin Sensira",
+        "model": "FTXC-B",
+        "type": "wandmodel", 
+        "brand": "daikin",
+        "images": [
+          "/images/daikin-sensira-wit.webp"
+        ],
+        "features": [
+          "Eenvoudige bediening",
+          "R-32 koudemiddel",
+          "Comfort modus",
+          "Eco-modus",
+          "Timer functie"
+        ],
+        "specifications": {
+          "koelvermogen": "2.0 - 7.1 kW",
+          "verwarmingsvermogen": "2.5 - 8.0 kW",
+          "energielabel": "A++",
+          "geluidsniveau": "21 dB(A)",
+          "afmetingen": "770 x 285 x 225 mm",
+          "koudemiddel": "R-32"
+        },
+        "benefits": [
+          "Uitstekende prijs-kwaliteitverhouding",
+          "Betrouwbare prestaties",
+          "Eenvoudige installatie",
+          "Milieuvriendelijk R-32 koudemiddel"
+        ],
+        "description": "De Daikin Sensira biedt betrouwbare klimaatbeheersing met focus op gebruiksgemak en efficiëntie."
+      },
+      {
+        "id": "daikin-stylish",
+        "name": "Daikin Stylish",
+        "model": "FTXA-BT",
+        "type": "wandmodel",
+        "brand": "daikin",
+        "images": [
+          "/images/daikin-stylish-silver.webp",
+          "/images/daikin-stylish-wit.webp",
+          "/images/daikin-stylish-zwart.webp"
+        ],
+        "features": [
+          "Stijlvol minimalistisch design",
+          "WiFi-sturing via Onecta app",
+          "Flash Streamer luchtzuivering",
+          "Coanda-effect",
+          "Beschikbaar in 3 kleuren"
+        ],
+        "specifications": {
+          "koelvermogen": "2.0 - 7.1 kW",
+          "verwarmingsvermogen": "2.5 - 8.0 kW", 
+          "energielabel": "A+++",
+          "geluidsniveau": "19 dB(A)",
+          "afmetingen": "798 x 295 x 215 mm",
+          "koudemiddel": "R-32"
+        },
+        "benefits": [
+          "Modern design in 3 kleuren",
+          "Smart home connectiviteit",
+          "Zeer stil in gebruik",
+          "Uitstekende energieprestaties"
+        ],
+        "description": "De Daikin Stylish combineert een modern design met geavanceerde technologie. Verkrijgbaar in zilver, wit en zwart."
+      },
+      {
+        "id": "daikin-ururu-sarara",
+        "name": "Daikin Ururu Sarara", 
+        "model": "FTXZ-N",
+        "type": "wandmodel",
+        "brand": "daikin",
+        "images": [
+          "/images/Ururu-Sarara-left.webp",
+          "/images/Ururu-Sarara-right.webp"
+        ],
+        "features": [
+          "Ururu bevochtiging",
+          "Sarara ontvochtigen",
+          "Flash Streamer luchtzuivering",
+          "Intelligent Eye sensor", 
+          "Online Controller"
+        ],
+        "specifications": {
+          "koelvermogen": "2.5 - 7.1 kW",
+          "verwarmingsvermogen": "3.2 - 8.0 kW",
+          "energielabel": "A+++",
+          "geluidsniveau": "19 dB(A)",
+          "afmetingen": "798 x 295 x 370 mm",
+          "koudemiddel": "R-32"
+        },
+        "benefits": [
+          "Unieke bevochtigingsfunctie",
+          "Complete luchtkwaliteitsbeheersing",
+          "Premium comfort ervaring",
+          "Geavanceerde sensortechnologie"
+        ],
+        "description": "De Daikin Ururu Sarara is het topmodel met unieke bevochtiging- en ontvochtingsfuncties voor optimale luchtkwaliteit."
+      },
+      {
+        "id": "daikin-daiseikai-10",
+        "name": "Daikin Daiseikai 10",
+        "model": "RXV-A",
+        "type": "buitenunit",
+        "brand": "daikin", 
+        "images": [
+          "/images/Daiseikai 10-Hout-links-open_5_11zon.webp",
+          "/images/Daiseikai 10-Hout-sfeerfoto_1_11zon.webp",
+          "/images/Daiseikai 10-Hout-vooraanzicht_2_11zon.webp",
+          "/images/Daiseikai 10-Wit-rechts_3_11zon.webp",
+          "/images/Daiseikai 10-Wit-vooraanzicht_4_11zon.webp"
+        ],
+        "features": [
+          "Duurzaam design in hout of wit",
+          "Zeer stille werking",
+          "R-32 koudemiddel",
+          "Compacte afmetingen",
+          "Weerbestendig"
+        ],
+        "specifications": {
+          "koelvermogen": "2.0 - 8.5 kW",
+          "verwarmingsvermogen": "2.5 - 9.0 kW",
+          "energielabel": "A+++",
+          "geluidsniveau": "48 dB(A)",
+          "afmetingen": "658 x 275 x 540 mm",
+          "koudemiddel": "R-32"
+        },
+        "benefits": [
+          "Stijlvolle buitenunit in twee uitvoeringen",
+          "Zeer stil voor buitenunit",
+          "Compact en ruimtebesparend",
+          "Uitstekende prestaties"
+        ],
+        "description": "De Daikin Daiseikai 10 buitenunit combineert stijl met prestaties. Verkrijgbaar in hout en wit finish."
+      },
+      {
+        "id": "daikin-haori",
+        "name": "Daikin Haori",
+        "model": "FTXS-K",
+        "type": "wandmodel",
+        "brand": "daikin",
+        "images": [
+          "/images/Haori-blauw-links_16_11zon.webp",
+          "/images/Haori-bruin-links_17_11zon.webp", 
+          "/images/Haori-creme-links_18_11zon.webp",
+          "/images/Haori-grijs-links_19_11zon.webp",
+          "/images/Haori-zwart-links_1_11zon.webp",
+          "/images/Haori-zwart-rechts_2_11zon.webp",
+          "/images/Haori-zwart-vooraanzicht_3_11zon.webp"
+        ],
+        "features": [
+          "5 exclusieve kleuren beschikbaar",
+          "Premium Japans design",
+          "Flash Streamer technology",
+          "Intelligent Eye sensor",
+          "WiFi-sturing mogelijk"
+        ],
+        "specifications": {
+          "koelvermogen": "2.0 - 7.1 kW",
+          "verwarmingsvermogen": "2.5 - 8.0 kW",
+          "energielabel": "A+++",
+          "geluidsniveau": "19 dB(A)",
+          "afmetingen": "798 x 295 x 215 mm",
+          "koudemiddel": "R-32"
+        },
+        "benefits": [
+          "Exclusief design in 5 kleuren",
+          "Premium Japanse kwaliteit", 
+          "Intelligente klimaatbeheersing",
+          "Perfecte integratie in elk interieur"
+        ],
+        "description": "De Daikin Haori is een premium wandmodel met exclusief Japans design, verkrijgbaar in vijf prachtige kleuren."
+      },
+      {
+        "id": "daikin-kazumi-plus",
+        "name": "Daikin Kazumi Plus",
+        "model": "FTXS-K2",
+        "type": "wandmodel",
+        "brand": "daikin",
+        "images": [
+          "/images/Kazumi-plus-Black-links-open_4_11zon.webp",
+          "/images/Kazumi-plus-Black-rechts-open_5_11zon.webp",
+          "/images/Kazumi-plus-Black-vooraanzicht_6_11zon.webp",
+          "/images/Kazumi-plus-white-rechts_7_11zon.webp", 
+          "/images/Kazumi-plus-white-vooraanzicht_8_11zon.webp"
+        ],
+        "features": [
+          "Verfijnd design in zwart en wit",
+          "3D-luchtstroomregeling",
+          "Flash Streamer luchtzuivering",
+          "Intelligent Eye sensor",
+          "Online Controller compatibel"
+        ],  
+        "specifications": {
+          "koelvermogen": "2.0 - 7.1 kW",
+          "verwarmingsvermogen": "2.5 - 8.0 kW",
+          "energielabel": "A+++", 
+          "geluidsniveau": "19 dB(A)",
+          "afmetingen": "798 x 295 x 215 mm",
+          "koudemiddel": "R-32"
+        },
+        "benefits": [
+          "Stijlvol design in zwart of wit",
+          "Geavanceerde luchtzuivering",
+          "Intelligente bewegingsdetectie",
+          "Fluisterstille werking"
+        ],
+        "description": "De Daikin Kazumi Plus combineert verfijnd design met geavanceerde technologie. Verkrijgbaar in elegant zwart en wit."
+      },
+      {
+        "id": "daikin-seiya-plus",
+        "name": "Daikin Seiya Plus",
+        "model": "FTXC-C",
+        "type": "wandmodel", 
+        "brand": "daikin",
+        "images": [
+          "/images/Seiya-plus-wit-links_9_11zon.webp",
+          "/images/Seiya-plus-wit-onderaanzicht-open_10_11zon.webp",
+          "/images/Seiya-plus-wit-rechts_11_11zon.webp",
+          "/images/Seiya-plus-wit-vooraanzicht_12_11zon.webp"
+        ],
+        "features": [
+          "Betaalbare Daikin kwaliteit",
+          "R-32 koudemiddel",
+          "Eenvoudige bediening",
+          "Timer functie",
+          "Auto restart"
+        ],
+        "specifications": {
+          "koelvermogen": "2.0 - 7.1 kW", 
+          "verwarmingsvermogen": "2.5 - 8.0 kW",
+          "energielabel": "A++",
+          "geluidsniveau": "22 dB(A)",
+          "afmetingen": "770 x 285 x 225 mm",
+          "koudemiddel": "R-32"
+        },
+        "benefits": [
+          "Uitstekende prijs-kwaliteitverhouding",
+          "Betrouwbare Daikin kwaliteit",
+          "Milieuvriendelijk koudemiddel",
+          "Eenvoudige installatie"
+        ],
+        "description": "De Daikin Seiya Plus biedt toegankelijke Daikin kwaliteit met focus op betrouwbaarheid en gebruiksgemak."
+      }
+    ],
+    "samsung": [
+      {
+        "id": "samsung-windfree-comfort",
+        "name": "Samsung WindFree Comfort",
+        "model": "AR09TXFCAWKNEU",
+        "type": "wandmodel",
+        "brand": "samsung",
+        "images": [
+          "/images/samsung/windfreeComfort/WindFree Comfort_S2_Front_Web_RGB.webp",
+          "/images/samsung/windfreeComfort/WindFree Comfort_S2_Left_Web_RGB.webp",
+          "/images/samsung/windfreeComfort/WindFree Comfort_S2_Right_Web_RGB.webp",
+          "/images/samsung/windfreeComfort/Samsung RAC WindFree Comfort_Sfeerbeeld_001.webp",
+          "/images/samsung/windfreeComfort/Samsung RAC WindFree Comfort_Sfeerbeeld_002.webp",
+          "/images/samsung/windfreeComfort/Samsung RAC WindFree Comfort_Sfeerbeeld_003.webp"
+        ],
+        "features": [
+          "WindFree technologie - koeling zonder luchtstroom",
+          "AI Auto Comfort",
+          "SmartThings integratie", 
+          "Triple Protector Plus",
+          "Easy Filter Plus"
+        ],
+        "specifications": {
+          "koelvermogen": "2.5 kW",
+          "verwarmingsvermogen": "3.2 kW", 
+          "energielabel": "A+++",
+          "geluidsniveau": "17 dB(A)",
+          "afmetingen": "799 x 295 x 215 mm",
+          "koudemiddel": "R-32"
+        },
+        "benefits": [
+          "Geen koude luchtstroom - optimaal comfort",
+          "AI-gestuurde temperatuurregeling",
+          "Smart home integratie",
+          "Zeer stil in gebruik (17 dB)"
+        ],
+        "description": "Samsung WindFree Comfort biedt revolutionaire koeling zonder directe luchtstroom voor optimaal comfort."
+      },
+      {
+        "id": "samsung-windfree-elite",
+        "name": "Samsung WindFree Elite", 
+        "model": "AR09TXEAAWKNEU",
+        "type": "wandmodel",
+        "brand": "samsung",
+        "images": [
+          "/images/samsung/windfreeElite/WindFree Elite_S2_Front_Web_RGB.webp",
+          "/images/samsung/windfreeElite/WindFree Elite_S2_Left_Web_RGB.webp",
+          "/images/samsung/windfreeElite/WindFree Elite_S2_Right_Web_RGB.webp",
+          "/images/samsung/windfreeElite/Samsung RAC WindFree Elite_Sfeerbeeld_001.webp",
+          "/images/samsung/windfreeElite/Samsung RAC WindFree Elite_Sfeerbeeld_002.webp",
+          "/images/samsung/windfreeElite/Samsung RAC WindFree Elite_Sfeerbeeld_003.webp",
+          "/images/samsung/windfreeElite/Samsung RAC WindFree Elite_Sfeerbeeld_004.webp",
+          "/images/samsung/windfreeElite/Samsung RAC WindFree Elite_Sfeerbeeld_005.webp"
+        ],
+        "features": [
+          "WindFree technologie",
+          "AI Auto Comfort",
+          "SmartThings energy management",
+          "PM 1.0 filter",
+          "Auto cleaning functie"
+        ],
+        "specifications": {
+          "koelvermogen": "2.5 - 7.0 kW",
+          "verwarmingsvermogen": "3.2 - 8.0 kW",
+          "energielabel": "A+++",
+          "geluidsniveau": "16 dB(A)", 
+          "afmetingen": "799 x 295 x 215 mm",
+          "koudemiddel": "R-32"
+        },
+        "benefits": [
+          "Premium WindFree ervaring",
+          "Intelligente energiebesparing",
+          "Geavanceerde luchtfiltering", 
+          "Zelfr-reinigende functie"
+        ],
+        "description": "Samsung WindFree Elite is het topmodel met geavanceerde AI en premium comfort zonder luchtstroom."
+      },
+      {
+        "id": "samsung-windfree-avant-black",
+        "name": "Samsung WindFree Avant Black",
+        "model": "AR09TXHZAWKNEU", 
+        "type": "wandmodel",
+        "brand": "samsung",
+        "images": [
+          "/images/samsung/windreeAvantBlack/WindFree Avant Black_Front_Web_RGB.webp",
+          "/images/samsung/windreeAvantBlack/WindFree Avant Black_Left_Web_RGB.webp",
+          "/images/samsung/windreeAvantBlack/WindFree Avant Black_Right_Web_RGB.webp",
+          "/images/samsung/windreeAvantBlack/Samsung RAC WindFree Avant Black_Sfeerbeeld_001.webp",
+          "/images/samsung/windreeAvantBlack/Samsung RAC WindFree Avant Black_Sfeerbeeld_002.webp",
+          "/images/samsung/windreeAvantBlack/Samsung RAC WindFree Avant Black_Sfeerbeeld_003.webp"
+        ],
+        "features": [
+          "Elegant zwart design",
+          "WindFree technologie",
+          "AI Auto Comfort",
+          "SmartThings compatibiliteit",
+          "Premium afwerking"
+        ],
+        "specifications": {
+          "koelvermogen": "2.5 - 7.0 kW",
+          "verwarmingsvermogen": "3.2 - 8.0 kW",
+          "energielabel": "A+++",
+          "geluidsniveau": "17 dB(A)",
+          "afmetingen": "799 x 295 x 215 mm", 
+          "koudemiddel": "R-32"
+        },
+        "benefits": [
+          "Stijlvol zwart design",
+          "WindFree comfort technologie",
+          "AI-gestuurde klimaatbeheersing",
+          "Premium materialen en afwerking"
+        ],
+        "description": "Samsung WindFree Avant Black combineert elegant zwart design met geavanceerde WindFree technologie."
+      },
+      {
+        "id": "samsung-luzon",
+        "name": "Samsung Luzon",
+        "model": "AR09TXHYAWKNEU",
+        "type": "wandmodel",
+        "brand": "samsung",
+        "images": [
+          "/images/samsung/luzon/Luzon_S2_Front_Web_RGB.webp",
+          "/images/samsung/luzon/Luzon_S2_Left_Web_RGB.webp", 
+          "/images/samsung/luzon/Luzon_S2_Right_Web_RGB.webp",
+          "/images/samsung/luzon/Samsung RAC Luzon_Sfeerbeeld_001.webp",
+          "/images/samsung/luzon/Samsung RAC Luzon_Sfeerbeeld_002.webp"
+        ],
+        "features": [
+          "Betaalbare Samsung kwaliteit",
+          "Triple Protector Plus",
+          "Easy Filter Plus",
+          "DuraFin coating",
+          "Good Sleep modus"
+        ],
+        "specifications": {
+          "koelvermogen": "2.5 - 7.0 kW",
+          "verwarmingsvermogen": "3.2 - 8.0 kW",
+          "energielabel": "A++",
+          "geluidsniveau": "19 dB(A)",
+          "afmetingen": "799 x 295 x 215 mm",
+          "koudemiddel": "R-32"
+        },
+        "benefits": [
+          "Uitstekende prijs-kwaliteitverhouding",
+          "Betrouwbare Samsung technologie",
+          "Corrosiebestendige coating",
+          "Comfortabele slaap functie"
+        ],
+        "description": "Samsung Luzon biedt toegankelijke Samsung kwaliteit met focus op betrouwbaarheid en comfort."
+      },
+      {
+        "id": "samsung-360-cassette",
+        "name": "Samsung 360° Cassette",
+        "model": "AC071NN4DKH",
+        "type": "cassette",
+        "brand": "samsung", 
+        "images": [
+          "/images/samsung/casette/360 Cassette - Rond - Front - Web.webp",
+          "/images/samsung/casette/360 Cassette - Rond - Angle - Web.webp"
+        ],
+        "features": [
+          "360° luchtverspreiding",
+          "Rond cassette design",
+          "WindFree technologie",
+          "SmartThings integratie",
+          "Easy Filter Plus"
+        ],
+        "specifications": {
+          "koelvermogen": "3.5 - 14.0 kW", 
+          "verwarmingsvermogen": "4.0 - 16.0 kW",
+          "energielabel": "A++",
+          "geluidsniveau": "28 dB(A)",
+          "afmetingen": "Ø840 x 245 mm",
+          "koudemiddel": "R-32"
+        },
+        "benefits": [
+          "Gelijkmatige temperatuurverdeling",
+          "Compact rond design",
+          "Geschikt voor grote ruimtes",
+          "WindFree comfort ervaring"
+        ],
+        "description": "Samsung 360° Cassette biedt optimale luchtverspreiding met innovatief rond design voor grote ruimtes."
+      }
+    ],
+    "mitsubishi-heavy": [
+      {
+        "id": "mitsubishi-srf-35-zs-w",
+        "name": "Mitsubishi Heavy SRF-35-ZS-W",
+        "model": "SRF35ZS-W",
+        "type": "vloermodel",
+        "brand": "mitsubishi-heavy",
+        "images": [
+          "/images/Mitsubishi heavy indus/Mitsubishi-Heavy-SRF-35-ZS-W-Vloer-unit-35-kW-Exclusief-buiten-unit.webp"
+        ],
+        "features": [
+          "Compacte vloerunit",
+          "Silent Operation technologie",
+          "3D Auto luchtstroomregeling",
+          "Allergen Clear systeem",
+          "Wi-Fi control mogelijk"
+        ],
+        "specifications": {
+          "koelvermogen": "3.5 kW",
+          "verwarmingsvermogen": "4.0 kW",
+          "energielabel": "A++",
+          "geluidsniveau": "25 dB(A)",
+          "afmetingen": "600 x 295 x 650 mm",
+          "koudemiddel": "R-32"
+        },
+        "benefits": [
+          "Ideaal voor ruimtes zonder wandmontage",
+          "Zeer stille werking",
+          "Geavanceerde luchtreiniging",
+          "Flexibele plaatsing"
+        ],
+        "description": "Mitsubishi Heavy SRF-35-ZS-W vloermodel biedt flexibele installatie met uitstekende prestaties."
+      },
+      {
+        "id": "mitsubishi-titanium-zs-wft",
+        "name": "Mitsubishi Heavy Titanium ZS-WFT",
+        "model": "ZSX-T",
+        "type": "wandmodel",
+        "brand": "mitsubishi-heavy", 
+        "images": [
+          "/images/Mitsubishi heavy indus/Mitsubishi-titanium-zs-wft-1.webp",
+          "/images/Mitsubishi heavy indus/Mitsubishi-titanium-zs-wft-2.5-3.5-5.0kw-1-510x510.webp",
+          "/images/Mitsubishi heavy indus/Mitsubishi-titanium-zs-wft.webp",
+          "/images/Mitsubishi heavy indus/ZSX-T-510x512.webp"
+        ],
+        "features": [
+          "Titanium coating voor duurzaamheid",
+          "Silent Operation technologie",
+          "3D Auto luchtstroomregeling",
+          "Allergen Clear systeem",
+          "Wi-Fi control compatibel"
+        ],
+        "specifications": {
+          "koelvermogen": "2.5 - 5.0 kW",
+          "verwarmingsvermogen": "3.2 - 6.0 kW",
+          "energielabel": "A+++",
+          "geluidsniveau": "19 dB(A)",
+          "afmetingen": "799 x 295 x 215 mm",
+          "koudemiddel": "R-32"
+        },  
+        "benefits": [
+          "Duurzame titanium coating",
+          "Uitstekende prestaties",
+          "Geavanceerde luchtreiniging", 
+          "Fluisterstille werking"
+        ],
+        "description": "Mitsubishi Heavy Titanium ZS-WFT combineert duurzaamheid met topprestaties dankzij titanium coating."
+      },
+      {
+        "id": "mitsubishi-srk50zs-wf",
+        "name": "Mitsubishi Heavy SRK50ZS-WF",
+        "model": "SRK50ZS-WF",
+        "type": "wandmodel",
+        "brand": "mitsubishi-heavy",
+        "images": [
+          "/images/Mitsubishi heavy indus/srk50zs-wf-wit-single-split-airco-wandmodel-2.5-3.5-5kw-1.webp",
+          "/images/Mitsubishi heavy indus/srk50zs-wf-wit-single-split-airco-wandmodel-2.5-3.5-5kw-510x510.webp"
+        ],
+        "features": [
+          "Single split systeem",
+          "Allergen Clear systeem",
+          "Silent Operation",
+          "3D Auto luchtstroomregeling",
+          "Eenvoudige bediening"
+        ],
+        "specifications": {
+          "koelvermogen": "5.0 kW",
+          "verwarmingsvermogen": "6.0 kW", 
+          "energielabel": "A++",
+          "geluidsniveau": "21 dB(A)",
+          "afmetingen": "799 x 295 x 215 mm",
+          "koudemiddel": "R-32"
+        },
+        "benefits": [
+          "Krachtige prestaties voor grote ruimtes",
+          "Geavanceerde luchtreiniging",
+          "Betrouwbare Mitsubishi kwaliteit",
+          "Stille werking"
+        ],
+        "description": "Mitsubishi Heavy SRK50ZS-WF is een krachtig wandmodel voor grote ruimtes met uitstekende prestaties."
+      },
+      {
+        "id": "mitsubishi-vloermodel-generic",
+        "name": "Mitsubishi Heavy Vloermodel",
+        "model": "Floor-Unit",
+        "type": "vloermodel",
+        "brand": "mitsubishi-heavy",
+        "images": [
+          "/images/Mitsubishi heavy indus/Mitsubishi-aircowebwinkel-vloermodel.webp"
+        ],
+        "features": [
+          "Compacte vloerunit",
+          "Flexibele plaatsing", 
+          "Silent Operation",
+          "Allergen Clear systeem",
+          "Eenvoudige installatie"
+        ],
+        "specifications": {
+          "koelvermogen": "2.5 - 7.1 kW",
+          "verwarmingsvermogen": "3.2 - 8.0 kW",
+          "energielabel": "A++",
+          "geluidsniveau": "24 dB(A)",
+          "afmetingen": "600 x 295 x 650 mm",
+          "koudemiddel": "R-32"
+        },
+        "benefits": [
+          "Ideaal voor ruimtes zonder wandmontage",
+          "Flexibele installatiemogelijkheden",
+          "Betrouwbare prestaties",
+          "Compacte afmetingen"
+        ],
+        "description": "Mitsubishi Heavy vloermodel biedt flexibele klimaatbeheersing voor verschillende ruimtetypes."
+      }
+    ],
+    "lg": [
+      {
+        "id": "lg-dualcool-premium",
+        "name": "LG DualCool Premium",
+        "model": "PC09SQ.NSJ",
+        "type": "wandmodel",
+        "brand": "lg",
+        "images": [
+          "/images/LG-dualcool-indoor-premium-1.webp",
+          "/images/LG-dualcool-indoor-premium.webp"
+        ],
+        "features": [
+          "Dual Inverter Compressor",
+          "ThinQ smart control",
+          "UVnano technologie",
+          "Active Energy Control",
+          "10-jaar garantie op compressor"
+        ],
+        "specifications": {
+          "koelvermogen": "2.5 kW",
+          "verwarmingsvermogen": "3.2 kW",
+          "energielabel": "A+++",
+          "geluidsniveau": "18 dB(A)",
+          "afmetingen": "798 x 295 x 215 mm",
+          "koudemiddel": "R-32"
+        },
+        "benefits": [
+          "Zeer energiezuinig door Dual Inverter",
+          "Smart home integratie via ThinQ",
+          "Zelfreinigende UVnano functie",
+          "Lange garantieperiode"
+        ],
+        "description": "LG DualCool Premium combineert geavanceerde Dual Inverter technologie met smart home integratie."
+      },
+      {
+        "id": "lg-artcool-mirror",
+        "name": "LG ArtCool Mirror",
+        "model": "MA09R.NR0",
+        "type": "wandmodel",
+        "brand": "lg",
+        "images": [
+          "/images/lg-artcool-mirror.webp"
+        ],
+        "features": [
+          "Uniek spiegeldesign",
+          "Dual Inverter Compressor", 
+          "ThinQ smart control",
+          "Active Energy Control",
+          "Plasma filtratie"
+        ],
+        "specifications": {
+          "koelvermogen": "2.5 kW",
+          "verwarmingsvermogen": "3.2 kW",
+          "energielabel": "A+++",
+          "geluidsniveau": "19 dB(A)",
+          "afmetingen": "798 x 295 x 215 mm", 
+          "koudemiddel": "R-32"
+        },
+        "benefits": [
+          "Stijlvol spiegeldesign",
+          "Energiezuinige werking",
+          "Smart home connectiviteit",
+          "Geavanceerde luchtreiniging"
+        ],
+        "description": "LG ArtCool Mirror is een designstatement met spiegelafwerking en geavanceerde technologie."
+      },
+      {
+        "id": "lg-artcool-black",
+        "name": "LG ArtCool Black",
+        "model": "MA09R.NB0",
+        "type": "wandmodel", 
+        "brand": "lg",
+        "images": [
+          "/images/rac-eu-lg-artcool-black.webp"
+        ],
+        "features": [
+          "Elegant zwart design",
+          "Dual Inverter Compressor",
+          "ThinQ smart control",
+          "Active Energy Control",
+          "Plasma filtratie"
+        ],
+        "specifications": {
+          "koelvermogen": "2.5 kW",
+          "verwarmingsvermogen": "3.2 kW",
+          "energielabel": "A+++",
+          "geluidsniveau": "19 dB(A)",
+          "afmetingen": "798 x 295 x 215 mm",
+          "koudemiddel": "R-32"
+        },
+        "benefits": [
+          "Stijlvol zwart design",
+          "Energiezuinige Dual Inverter",
+          "Smart home integratie",
+          "Premium afwerking"
+        ],
+        "description": "LG ArtCool Black combineert elegant zwart design met geavanceerde LG technologie."
+      },
+      {
+        "id": "lg-premium-series",
+        "name": "LG Premium Series",
+        "model": "PC12SQ.NSJ",
+        "type": "wandmodel",
+        "brand": "lg",
+        "images": [
+          "/images/rac-eu-lg-premium.webp"
+        ],
+        "features": [
+          "Premium kwaliteit",
+          "Dual Inverter Compressor",
+          "ThinQ smart control",
+          "UVnano technologie",
+          "10-jaar garantie"
+        ],
+        "specifications": {
+          "koelvermogen": "3.5 kW",
+          "verwarmingsvermogen": "4.0 kW",
+          "energielabel": "A+++",
+          "geluidsniveau": "18 dB(A)",
+          "afmetingen": "798 x 295 x 215 mm",
+          "koudemiddel": "R-32"
+        },
+        "benefits": [
+          "Premium LG kwaliteit",
+          "Zeer energiezuinig",
+          "Geavanceerde smart features",
+          "Lange garantieperiode"
+        ],
+        "description": "LG Premium Series biedt topkwaliteit met alle geavanceerde LG technologieën."
+      },
+      {
+        "id": "lg-standard-plus",
+        "name": "LG Standard Plus",
+        "model": "S09EQ.NSJ",
+        "type": "wandmodel",
+        "brand": "lg",
+        "images": [
+          "/images/rac-eu-standard-plus-.webp"
+        ],
+        "features": [
+          "Uitstekende prijs-kwaliteit",
+          "Dual Inverter Compressor",
+          "Active Energy Control",
+          "Gold Fin coating",
+          "Jet Cool functie"
+        ],
+        "specifications": {
+          "koelvermogen": "2.5 kW",
+          "verwarmingsvermogen": "3.2 kW",
+          "energielabel": "A++",
+          "geluidsniveau": "20 dB(A)",
+          "afmetingen": "798 x 295 x 215 mm",
+          "koudemiddel": "R-32"
+        },
+        "benefits": [
+          "Betaalbare LG kwaliteit",
+          "Energiezuinige werking",
+          "Corrosiebestendige coating",
+          "Snelle koeling"
+        ],
+        "description": "LG Standard Plus biedt betrouwbare LG kwaliteit met focus op prijs-prestatieverhouding."
+      },
+      {
+        "id": "lg-mobiele-airco",
+        "name": "LG Mobiele Airco",
+        "model": "LP1017WSR",
+        "type": "mobiele-airco",
+        "brand": "lg",
+        "images": [
+          "/images/mobiele airco/lg mobiele airco/lg-mobiele-airco-staycoolairco.webp",
+          "/images/mobiele airco/lg mobiele airco/lg-mobiele-airco-staycoolairco-1.webp",
+          "/images/mobiele airco/lg mobiele airco/lg-mobiele-airco-staycoolairco-2.webp",
+          "/images/mobiele airco/lg mobiele airco/lg-mobiele-airco-staycoolairco-3.webp",
+          "/images/mobiele airco/lg mobiele airco/lg-mobiele-airco-staycoolairco-4.webp",
+          "/images/mobiele airco/lg mobiele airco/lg-mobiele-airco-staycoolairco-5.webp"
+        ],
+        "features": [
+          "Mobiele flexibiliteit",
+          "Koelen, ontvochtigen en ventileren",
+          "Programmeerbare timer",
+          "Auto restart functie",
+          "Inclusief raamkit"
+        ],
+        "specifications": {
+          "koelvermogen": "3.0 kW",
+          "verwarmingsvermogen": "N/A",
+          "energielabel": "A",
+          "geluidsniveau": "48 dB(A)",
+          "afmetingen": "350 x 340 x 698 mm",
+          "koudemiddel": "R-290"
+        },
+        "benefits": [
+          "Flexibele plaatsing zonder installatie",
+          "3-in-1 functionaliteit",
+          "Eenvoudig te verplaatsen",
+          "Compleet met montagekit"
+        ],
+        "description": "LG Mobiele Airco biedt flexibele koeling zonder vaste installatie. Perfect voor huurwoningen."
+      }
+    ],
+    "tosot": [
+      {
+        "id": "tosot-wts-console",
+        "name": "Tosot WTS Console",
+        "model": "GWH09WTS-K3DNA1F",
+        "type": "console",
+        "brand": "tosot",
+        "images": [
+          "/images/374-WTS-indoor-console-vloernmodel-tosot.webp",
+          "/images/375-WTS-remote-console-tosot.webp"
+        ],
+        "features": [
+          "Console/vloer opstelling",
+          "I-Feel temperatuurregeling",
+          "Multi-stage filtratie",
+          "Ultra-stil ontwerp",
+          "WiFi-besturing mogelijk"
+        ],
+        "specifications": {
+          "koelvermogen": "2.6 kW",
+          "verwarmingsvermogen": "3.2 kW",
+          "energielabel": "A++",
+          "geluidsniveau": "22 dB(A)",
+          "afmetingen": "600 x 295 x 650 mm",
+          "koudemiddel": "R-32"
+        },
+        "benefits": [
+          "Flexibele console installatie",
+          "Intelligente temperatuurregeling",
+          "Stil in gebruik",
+          "Goede prijs-kwaliteitverhouding"
+        ],
+        "description": "Tosot WTS Console biedt flexibele installatie met intelligente I-Feel temperatuurregeling."
+      },
+      {
+        "id": "tosot-pular",
+        "name": "Tosot Pular",
+        "model": "GWH09QC-K6DNC2G",
+        "type": "wandmodel",
+        "brand": "tosot",
+        "images": [
+          "/images/568-Pular-indoor-vooraanzicht.webp",
+          "/images/570-Pular-indoor-right.webp"
+        ],
+        "features": [
+          "Modern wandmodel design",
+          "I-Feel technologie",
+          "Intelligente ontdooiing",
+          "Multi-stage filtratie",
+          "WiFi-besturing"
+        ],
+        "specifications": {
+          "koelvermogen": "2.6 kW",
+          "verwarmingsvermogen": "3.2 kW",
+          "energielabel": "A++",
+          "geluidsniveau": "21 dB(A)",
+          "afmetingen": "798 x 295 x 215 mm",
+          "koudemiddel": "R-32"
+        },
+        "benefits": [
+          "Intelligent temperatuurregeling",
+          "Betrouwbare prestaties",
+          "Stil in gebruik",
+          "Moderne uitstraling"
+        ],
+        "description": "Tosot Pular wandmodel combineert modern design met intelligente I-Feel technologie."
+      },
+      {
+        "id": "tosot-clivia-zwart",
+        "name": "Tosot Clivia Zwart",
+        "model": "GWH09YC-K6DNC2G",
+        "type": "wandmodel",
+        "brand": "tosot",
+        "images": [
+          "/images/710-clivia-zwart-zijkant.webp",
+          "/images/711-clivia-zwart-schuin.webp",
+          "/images/712-clivia-zwart-vooraanzicht.webp"
+        ],
+        "features": [
+          "Elegant zwart design",
+          "I-Feel temperatuurregeling",
+          "Multi-stage filtratie",
+          "Intelligente ontdooiing",
+          "WiFi-besturing mogelijk"
+        ],
+        "specifications": {
+          "koelvermogen": "2.6 kW",
+          "verwarmingsvermogen": "3.2 kW",
+          "energielabel": "A++",
+          "geluidsniveau": "21 dB(A)",
+          "afmetingen": "798 x 295 x 215 mm",
+          "koudemiddel": "R-32"
+        },
+        "benefits": [
+          "Stijlvol zwart design",  
+          "Intelligente klimaatbeheersing",
+          "Betrouwbare prestaties",
+          "Uitstekende prijs-kwaliteit"
+        ],
+        "description": "Tosot Clivia Zwart combineert elegant zwart design met betrouwbare prestaties."
+      },
+      {
+        "id": "tosot-clivia-wit",
+        "name": "Tosot Clivia Wit",
+        "model": "GWH09YC-K6DNC2W",
+        "type": "wandmodel",
+        "brand": "tosot",
+        "images": [
+          "/images/723-clivia-wit-schuin.webp",
+          "/images/724-clivia-wit-vooraanzicht.webp",
+          "/images/727-clivia-wit-zijkant.webp"
+        ],
+        "features": [
+          "Klassiek wit design",
+          "I-Feel technologie",
+          "Multi-stage filtratie",
+          "Ultra-stil ontwerp",
+          "WiFi-besturing"
+        ],
+        "specifications": {
+          "koelvermogen": "2.6 kW",
+          "verwarmingsvermogen": "3.2 kW",
+          "energielabel": "A++",
+          "geluidsniveau": "21 dB(A)",
+          "afmetingen": "798 x 295 x 215 mm",
+          "koudemiddel": "R-32"
+        },
+        "benefits": [
+          "Tijdloos wit design",
+          "Intelligente temperatuurregeling",
+          "Stil en efficiënt",
+          "Betaalbare kwaliteit"
+        ],
+        "description": "Tosot Clivia Wit biedt tijdloos design met moderne I-Feel technologie voor optimaal comfort."
+      },
+      {
+        "id": "tosot-cosmo",
+        "name": "Tosot Cosmo",
+        "model": "GWH09MC-K6DNC2A",
+        "type": "wandmodel",
+        "brand": "tosot",
+        "images": [
+          "/images/787-cosmo-indoor-vooraanzicht.webp",
+          "/images/788-cosmo-indoor.webp",
+          "/images/789-cosmo-indoor.webp"
+        ],
+        "features": [
+          "Modern Cosmo design",
+          "I-Feel temperatuurregeling",
+          "Intelligente ontdooiing",
+          "Multi-stage filtratie",
+          "Energiezuinige werking"
+        ],
+        "specifications": {
+          "koelvermogen": "2.6 kW",
+          "verwarmingsvermogen": "3.2 kW",
+          "energielabel": "A++",
+          "geluidsniveau": "21 dB(A)",
+          "afmetingen": "798 x 295 x 215 mm",
+          "koudemiddel": "R-32"
+        },
+        "benefits": [
+          "Modern en stijlvol design",
+          "Intelligente klimaatbeheersing",
+          "Energiezuinige werking",
+          "Betrouwbare kwaliteit"
+        ],
+        "description": "Tosot Cosmo wandmodel met modern design en geavanceerde I-Feel technologie."
+      },
+      {
+        "id": "tosot-console-vloer-wit",
+        "name": "Tosot Console Vloermodel Wit",
+        "model": "GWH12QT-K6DNC2W",
+        "type": "vloermodel",
+        "brand": "tosot",
+        "images": [
+          "/images/toshiba-console-vloermodel-wit-linksboven_14_11zon.webp",
+          "/images/toshiba-console-vloermodel-wit-reacht_15_11zon.webp",
+          "/images/toshiba-console-vloermodel-wit_13_11zon.webp"
+        ],
+        "features": [
+          "Wit console/vloermodel",
+          "I-Feel temperatuurregeling",
+          "Multi-stage filtratie",
+          "Ultra-stil ontwerp",
+          "Flexibele plaatsing"
+        ],
+        "specifications": {
+          "koelvermogen": "3.5 kW",
+          "verwarmingsvermogen": "4.0 kW",
+          "energielabel": "A++",
+          "geluidsniveau": "24 dB(A)",
+          "afmetingen": "600 x 295 x 650 mm",
+          "koudemiddel": "R-32"
+        },
+        "benefits": [
+          "Flexibele console installatie",
+          "Intelligente temperatuurregeling",
+          "Geschikt voor grote ruimtes",
+          "Stijlvol wit design"
+        ],
+        "description": "Tosot Console Vloermodel in wit biedt flexibele installatie en krachtige prestaties."
+      },
+      {
+        "id": "tosot-mobiele-airco",
+        "name": "Tosot Mobiele Airco",
+        "model": "GPC12AL-K5NNA1A",
+        "type": "mobiele-airco",
+        "brand": "tosot",
+        "images": [
+          "/images/mobiele airco/tosot mobiele airco/tosot-mobiele-airco-staycoolairco-1.webp",
+          "/images/mobiele airco/tosot mobiele airco/tosot-mobiele-airco-staycoolairco-2.webp",
+          "/images/mobiele airco/tosot mobiele airco/tosot-mobiele-airco-staycoolairco-3.webp",
+          "/images/mobiele airco/tosot mobiele airco/tosot-mobiele-airco-staycoolairco-4.webp",
+          "/images/mobiele airco/tosot mobiele airco/tosot-mobiele-airco-staycoolairco-5.webp",
+          "/images/mobiele airco/tosot mobiele airco/tosot-mobiele-airco-staycoolairco-6.webp"
+        ],
+        "features": [
+          "Mobiele flexibiliteit",
+          "3-in-1: koelen, ontvochtigen, ventileren",
+          "Programmeerbare timer",
+          "Auto restart functie",
+          "Inclusief vensterkit"
+        ],
+        "specifications": {
+          "koelvermogen": "3.5 kW",
+          "verwarmingsvermogen": "N/A",
+          "energielabel": "A",
+          "geluidsniveau": "50 dB(A)",
+          "afmetingen": "345 x 340 x 700 mm",
+          "koudemiddel": "R-290"
+        },
+        "benefits": [
+          "Geen vaste installatie nodig",
+          "3-in-1 functionaliteit",
+          "Betaalbare koeloplossing",
+          "Compleet met montagekit"
+        ],
+        "description": "Tosot Mobiele Airco biedt flexibele koeling zonder installatie. Ideaal voor tijdelijke oplossingen."
+      }
+    ],
+    "accessoires": [
+      {
+        "id": "airco-cover-antraciet", 
+        "name": "Airco Cover Antraciet",
+        "model": "AC-COV-ANT",
+        "type": "accessoire",
+        "brand": "universal",
+        "images": [
+          "/images/airco-covers/aircocover-antraciet-binnenkant.webp",
+          "/images/airco-covers/aircocover-antraciet-vooraanzicht.webp",
+          "/images/airco-covers/aircocover-antraciet-zijkant.webp",
+          "/images/airco-covers/aircocover-antraciet.webp"
+        ],
+        "features": [
+          "Bescherming tegen weersinvloeden",
+          "Duurzaam antraciet materiaal",
+          "Eenvoudige montage",
+          "Universeel passend",
+          "UV-bestendig"
+        ],
+        "specifications": {
+          "materiaal": "Polyester",
+          "kleur": "Antraciet",
+          "afmetingen": "Universeel aanpasbaar",
+          "gewicht": "0.5 kg",
+          "garantie": "2 jaar"
+        },
+        "benefits": [
+          "Verlengt levensduur buitenunit",
+          "Beschermt tegen vuil en bladeren",
+          "Discrete antraciet kleur",
+          "Eenvoudige installatie"
+        ],
+        "description": "Hoogwaardige airco cover in antraciet voor optimale bescherming van uw buitenunit tegen weersinvloeden."
+      },
+      {
+        "id": "airco-cover-wit",
+        "name": "Airco Cover Wit", 
+        "model": "AC-COV-WIT",
+        "type": "accessoire",
+        "brand": "universal",
+        "images": [
+          "/images/airco-covers/aircocover-wit-binnenkant.webp",
+          "/images/airco-covers/aircocover-wit-voorkant.webp",
+          "/images/airco-covers/aircocover-wit-zijkant.webp",
+          "/images/airco-covers/aircocover-wit.webp"
+        ],
+        "features": [
+          "Bescherming tegen weersinvloeden",
+          "Klassiek wit design",
+          "Eenvoudige montage",
+          "Universeel passend",
+          "UV-bestendig materiaal"
+        ],
+        "specifications": {
+          "materiaal": "Polyester",
+          "kleur": "Wit",
+          "afmetingen": "Universeel aanpasbaar",
+          "gewicht": "0.5 kg",
+          "garantie": "2 jaar"
+        },
+        "benefits": [
+          "Optimale bescherming buitenunit",
+          "Klassieke witte kleur",
+          "Verlength levensduur airco",
+          "Gemakkelijke installatie"
+        ],
+        "description": "Klassieke witte airco cover voor discrete bescherming van uw buitenunit tegen alle weersinvloeden."
+      }
+    ]
+  }
+}

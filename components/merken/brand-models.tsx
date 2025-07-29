@@ -1,178 +1,107 @@
 import { Card } from "@/components/ui/card"
+import { Button } from "@/components/ui/button"
+import Image from "next/image"
+import Link from "next/link"
+import productsData from "@/data/products.json"
 
 interface BrandModelsProps {
   brand: {
     name: string
+    slug: string
   }
 }
 
 export function BrandModels({ brand }: BrandModelsProps) {
-  const models = getBrandModels(brand.name)
+  const brandSlug = brand.slug
+  const models = productsData.products[brandSlug as keyof typeof productsData.products] || []
+  
+  // Show only first 6 models
+  const featuredModels = models.slice(0, 6)
 
   return (
     <Card className="p-6">
-      <h2 className="text-2xl font-semibold mb-4">Populaire Modellen</h2>
-      <div className="grid gap-4">
-        {models.map((model, index) => (
-          <div key={index} className="border p-4 rounded-lg">
-            <h3 className="font-semibold mb-2">{model.name}</h3>
-            <p className="text-sm text-muted-foreground mb-2">{model.description}</p>
-            <div className="flex flex-wrap gap-2">
-              {model.features.map((feature, featureIndex) => (
-                <span
-                  key={featureIndex}
-                  className="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-blue-100 text-blue-800"
-                >
-                  {feature}
+      <div className="flex justify-between items-center mb-6">
+        <h2 className="text-2xl font-semibold">Onze {brand.name} Modellen</h2>
+        <Link href={`/merken/${brandSlug}/modellen`}>
+          <Button variant="outline" size="sm">
+            Alle modellen bekijken
+          </Button>
+        </Link>
+      </div>
+
+      <div className="grid gap-6 md:grid-cols-2">
+        {featuredModels.map((model) => (
+          <div key={model.id} className="border rounded-lg overflow-hidden hover:shadow-lg transition-shadow">
+            <div className="relative h-48 bg-gray-50">
+              <Image
+                src={model.images[0]}
+                alt={model.name}
+                fill
+                className="object-contain p-4"
+              />
+            </div>
+            
+            <div className="p-4">
+              <div className="flex justify-between items-start mb-2">
+                <h3 className="font-semibold text-lg">{model.name}</h3>
+                <span className="text-xs bg-green-100 text-green-800 px-2 py-1 rounded-full">
+                  {(model.specifications as any).energielabel || 'A+'}
                 </span>
-              ))}
+              </div>
+              
+              <p className="text-sm text-muted-foreground mb-3 line-clamp-2">
+                {model.description}
+              </p>
+
+              <div className="grid grid-cols-2 gap-2 text-xs text-muted-foreground mb-3">
+                <div>Koelvermogen: {(model.specifications as any).koelvermogen || 'N/A'}</div>
+                <div>Geluid: {(model.specifications as any).geluidsniveau || 'Stil'}</div>
+              </div>
+
+              <div className="flex flex-wrap gap-1 mb-4">
+                {model.features.slice(0, 2).map((feature, index) => (
+                  <span
+                    key={index}
+                    className="inline-flex items-center px-2 py-1 rounded-full text-xs font-medium bg-blue-50 text-blue-700"
+                  >
+                    {feature}
+                  </span>
+                ))}
+                {model.features.length > 2 && (
+                  <span className="text-xs text-muted-foreground px-2 py-1">
+                    +{model.features.length - 2} meer
+                  </span>
+                )}
+              </div>
+
+              <div className="flex gap-2">
+                <Link href={`/producten/${model.id}`} className="flex-1">
+                  <Button variant="outline" className="w-full" size="sm">
+                    Details bekijken
+                  </Button>
+                </Link>
+                <Link href="/offerte">
+                  <Button className="bg-green-600 hover:bg-green-700" size="sm">
+                    Offerte aanvragen
+                  </Button>
+                </Link>
+              </div>
             </div>
           </div>
         ))}
       </div>
+
+      {models.length === 0 && (
+        <div className="text-center py-8 text-muted-foreground">
+          <p>Binnenkort beschikbaar...</p>
+          <Link href="/contact">
+            <Button className="mt-4 bg-green-600 hover:bg-green-700">
+              Informeer naar beschikbaarheid
+            </Button>
+          </Link>
+        </div>
+      )}
     </Card>
   )
 }
 
-function getBrandModels(brandName: string) {
-  const models = {
-    "Daikin": [
-      {
-        name: "Perfera FTXM-R",
-        description: "Perfect voor residentieel gebruik met uitstekende energie-efficiëntie",
-        features: ["SEER tot 8.65", "Fluisterstil", "Flash Streamer"]
-      },
-      {
-        name: "Stylish FTXA-AW",
-        description: "Design model met geavanceerde functies",
-        features: ["3D luchtstroom", "Coanda effect", "Smart control"]
-      },
-      {
-        name: "Emura FTXJ-MW",
-        description: "Premium design met hoogwaardige prestaties",
-        features: ["2-zone bewegingssensor", "WiFi standaard", "Multi-monitoring"]
-      }
-    ],
-    "Mitsubishi Electric": [
-      {
-        name: "MSZ-LN Deluxe",
-        description: "Premium wandmodel met unieke features",
-        features: ["3D i-see sensor", "Plasma Quad Plus", "Dubbele lamellen"]
-      },
-      {
-        name: "MSZ-AP Design",
-        description: "Stijlvol en efficiënt wandmodel",
-        features: ["Weekly timer", "Dual Barrier Coating", "WiFi control"]
-      },
-      {
-        name: "MFZ-KT Vloermodel",
-        description: "Krachtig vloermodel voor optimaal comfort",
-        features: ["Hyper Heating", "Dubbele luchtstroom", "Auto Vane"]
-      }
-    ],
-    "Samsung": [
-      {
-        name: "Wind-Free Pure 1.0",
-        description: "Innovatief model met WindFree technologie",
-        features: ["AI Auto Comfort", "PM1.0 filter", "Triple protector"]
-      },
-      {
-        name: "Cebu",
-        description: "Betrouwbaar basis model met goede prestaties",
-        features: ["Fast cooling", "Auto clean", "Good Sleep"]
-      },
-      {
-        name: "Better",
-        description: "Uitgebreid model met extra features",
-        features: ["5-step cooling", "Easy filter", "Digital Inverter"]
-      }
-    ],
-    "Toshiba": [
-      {
-        name: "Daiseikai 9",
-        description: "Premium model met maximaal comfort",
-        features: ["HADA Care", "Ultra Pure filter", "Fireplace mode"]
-      },
-      {
-        name: "Shorai Edge",
-        description: "Modern design met uitstekende prestaties",
-        features: ["Magic Coil", "Self cleaning", "Voice control"]
-      },
-      {
-        name: "Seiya",
-        description: "Compact en efficiënt instapmodel",
-        features: ["Eco mode", "Hi-power", "Quiet operation"]
-      }
-    ],
-    "Mitsubishi Heavy Industries": [
-      {
-        name: "Diamond ZSX",
-        description: "Topmodel met geavanceerde features",
-        features: ["Allergen Clear", "3D Auto", "Silent mode"]
-      },
-      {
-        name: "Premium SRK-ZS",
-        description: "Hoogwaardig model voor optimale prestaties",
-        features: ["Eco operation", "Weekly timer", "Self clean"]
-      },
-      {
-        name: "Kireia",
-        description: "Stijlvol design met goede prestaties",
-        features: ["Motion sensor", "Anti-bacterial", "Auto restart"]
-      }
-    ],
-    "LG": [
-      {
-        name: "Artcool Gallery",
-        description: "Design model met verwisselbaar frontpaneel",
-        features: ["ThinQ", "Dual Inverter", "UV nano"]
-      },
-      {
-        name: "DualCool",
-        description: "Krachtig model voor grote ruimtes",
-        features: ["10 Year warranty", "Smart Diagnosis", "Auto cleaning"]
-      },
-      {
-        name: "Standard Plus",
-        description: "Betrouwbaar basismodel",
-        features: ["Gold Fin", "Low noise", "Energy saving"]
-      }
-    ],
-    "Tosot": [
-      {
-        name: "Clivia",
-        description: "Premium wandmodel met uitstekende prestaties",
-        features: ["Smart WiFi", "Turbo cooling", "Self cleaning"]
-      },
-      {
-        name: "Pular",
-        description: "Veelzijdig model voor middelgrote ruimtes",
-        features: ["I-Feel technologie", "Sleep mode", "Anti-cold air"]
-      },
-      {
-        name: "Cosmo",
-        description: "Modern design met geavanceerde functies",
-        features: ["ECO mode", "Timer functie", "Auto restart"]
-      }
-    ],
-    "Gree": [
-      {
-        name: "Amber",
-        description: "Premium model met uitgebreide features",
-        features: ["G-Tech inverter", "WiFi", "Self clean"]
-      },
-      {
-        name: "Bora",
-        description: "Populair model voor residentieel gebruik",
-        features: ["Cold plasma", "Intelligent defrost", "Quiet operation"]
-      },
-      {
-        name: "Lomo Eco",
-        description: "Energiezuinig instapmodel",
-        features: ["Eco mode", "Sleep function", "Auto restart"]
-      }
-    ]
-  }
-
-  return models[brandName as keyof typeof models]
-}

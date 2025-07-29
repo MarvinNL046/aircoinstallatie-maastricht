@@ -2,6 +2,7 @@ import { Metadata } from "next"
 import { HeroSection } from "@/components/sections/hero-section"
 import { FeaturesSection } from "@/components/sections/features-section"
 import { ServicesSection } from "@/components/sections/services-section"
+import { ProductsShowcase } from "@/components/sections/products-showcase"
 import { TestimonialsSection } from "@/components/sections/testimonials"
 import { CTASection } from "@/components/sections/cta-section"
 import { CTABanner } from "@/components/sections/cta-banner"
@@ -32,6 +33,7 @@ export default function HomePage() {
         <HeroSection />
         <FeaturesSection />
         <ServicesSection />
+        <ProductsShowcase />
         <section className="py-16 bg-gray-50">
           <div className="container">
             <h2 className="text-3xl font-bold text-center mb-8">Bekijk Onze Bedrijfsvideo</h2>
